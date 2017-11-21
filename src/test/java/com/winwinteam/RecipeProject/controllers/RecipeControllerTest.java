@@ -72,7 +72,7 @@ public class RecipeControllerTest {
 
 
         //then
-        assertEquals("recipe",returnesString);
+        assertEquals("recipes",returnesString);
         verify(recipeService, times(1)).getRecipes();
         verify(model, times(1)).addAttribute(eq("recipe"), argumentCaptor.capture());
         Set<Recipe> setInController = argumentCaptor.getValue();

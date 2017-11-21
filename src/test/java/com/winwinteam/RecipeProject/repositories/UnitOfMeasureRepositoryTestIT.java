@@ -30,7 +30,5 @@ public class UnitOfMeasureRepositoryTestIT {
         Optional<UnitOfMeasure> unitOfMeasure = unitOfMeasureRepository.findByUom("Teaspoon");
 
         assertEquals("Teaspoon", unitOfMeasure.get().getUom());
-
     }
-
 }
