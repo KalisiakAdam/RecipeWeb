@@ -27,6 +27,6 @@ public class RecipeController {
 
 
 
-        return "recipe";
+        return "recipes";
     }
 }
